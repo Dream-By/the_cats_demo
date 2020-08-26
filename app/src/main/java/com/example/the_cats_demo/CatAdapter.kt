@@ -52,7 +52,7 @@ class CatAdapter(private val onCatClicked: (imageUrl: String) -> Unit) :
                 .load(cat.imageUrl)
                 .centerCrop()
                 .thumbnail()
-                .into(itemView.itemCatImageView)
+                .into(itemView.itemCatImageView)//
         }
     }
 }
